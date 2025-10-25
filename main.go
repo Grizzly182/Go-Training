@@ -6,9 +6,10 @@ import (
 )
 
 func main() {
+	const multiplier = 2
 	userHeight := 1.77
 	userWeight := 65.0
-	IMT := userWeight / math.Pow(userHeight, 2)
+	IMT := userWeight / math.Pow(userHeight, multiplier)
 
 	fmt.Print(IMT)
 }
